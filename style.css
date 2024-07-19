@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  position: relative;
+  z-index: 10;
+  background: lightgray;
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li{
+  padding: 0px 20px;
+  display: inline-block;
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color:darkgreen;
+}
+
+.nav-links li a:hover{
+  color: #0088a9;
+}
+
+.Academic {
+  text-align: center;
+  border
+}
+
+.School yard img {
+  text-align: center;
+  border: 100px solid black;
+}
+
+.Non-profit {
+  text-align: center;
+}
+
+.Tutoring-button {
+  text-align: center;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.Tutoring-button:hover {
+  background-color: red;
+  color: white;
+}
+.FAQS-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.FAQS-button {
+  text-align: center;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
